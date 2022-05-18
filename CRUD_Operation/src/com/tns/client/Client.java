@@ -1,7 +1,5 @@
 package com.tns.client;
 
-
-
 import com.tns.entities.Student;
 import com.tns.service.StudentService; 
 import com.tns.service.StudentServiceImpl; 
@@ -18,11 +16,11 @@ public class Client {
  	 
  	 	Student student = new Student(); 
  	 	
- 	 	 // Create Operation  	 	
- 	 	student.setStudentid(1);	 	
- 	 	student.setName("Sayyad"); 
+// 	 	  Create Operation  	 	
+ 	 	student.setStudentid(7777);	 	
+ 	 	student.setName("Zubair"); 
  	 	service.addStudent(student); 
- 	 //at this breakpoint, we have added one record to table 
+// 	 at this breakpoint, we have added one record to table 
  	 	 
  	 	 
  	 	// Retrieve Operation 
@@ -33,22 +31,22 @@ public class Client {
  	 	  
  
  	 	// Update Operation 
- 	 //	student = service.findStudentById(1);  	 	
- 	 //	student.setName("Sayyad Aareesh");  	 	
- 	 //	service.updateStudent(student); 
+// 	 	student = service.findStudentById(7777);  	 	
+// 	 	student.setName("Zubair Qureshi");  	 	
+// 	 	service.updateStudent(student); 
  	 	 
 //at this breakpoint, we have updated record added in first section 
  	 	 
- 	 //	student = service.findStudentById(1);  	 	
- 	 //	System.out.print("ID:"+student.getStudentid()); 
- 	 //	System.out.println(" Name:"+student.getName());   
+// 	 	student = service.findStudentById(7777);  	 	
+// 	 	System.out.print("ID:"+student.getStudentid()); 
+// 	 	System.out.println(" Name:"+student.getName());   
  	 	 
  	 
  	 	//at this breakpoint, record is removed from table 
  	 	// Delete Operation 
- 	 //	student = service.findStudentById(100);  	 	
- 	 //	service.removeStudent(student); 
- 	//System.out.println("End of program/Life cycle completed...");   
+// 	 	student = service.findStudentById(7777);  	 	
+// 	 	service.removeStudent(student); 
+// 	System.out.println("End of program/Life cycle completed...");   
  	 
  	 
  	 	
